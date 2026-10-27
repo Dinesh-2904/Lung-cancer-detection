@@ -1,0 +1,59 @@
+# ========================
+# Python / Backend
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+.venv
+venv/
+env/
+pip-log.txt
+
+# ========================
+# Model weights (large binary files)
+# Upload to Google Drive / HuggingFace Hub instead
+# ========================
+backend/models/*.pth
+backend/models/*.pt
+backend/models/*.bin
+backend/models/*.ckpt
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.npm
+*.log
+npm-debug.log*
+
+# ========================
+# IDE / OS
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Misc
+# ========================
+*.tmp
+*.temp
+.cache/
